@@ -29,7 +29,8 @@ Copy your local "genome file", "annotation file" and "sample ID file(fastq_files
 
 #### 2.Make STARindex
 
-```# python exec_make_STARindex.py
+```
+# python exec_make_STARindex.py
 ```
 
 line 5 or 6 = Change the 'species'
