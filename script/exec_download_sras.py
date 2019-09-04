@@ -3,8 +3,6 @@ import os, shutil, glob
 cdir = os.getcwd()
 data_dir = '/condir'
 sra_dir = os.path.join(data_dir,'input')
-
-#prefetch_dir = '/Users/snakaoka/ws/apps/sratoolkit/bin/'
 prefetch_dir = '/usr/bin/'
 DL_dir = '/root/ncbi/public/sra/'
 
