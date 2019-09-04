@@ -8,13 +8,13 @@ Reference URL:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631051/
 ### Docker pull image
 
 ```
-docker pull petadimensionlab/docker_star
+docker pull petadimensionlab/docker_rnaseq_star
 ```
 
 ### Docker run
 
 ```
-docker run -it --name container_name -v /yourlocal_dir:/condir --rm  petadimensionlab/docker_functree2
+docker run -it --name container_name -v /yourlocal_dir:/condir --rm  petadimensionlab/docker_rnaseq_star
 ```
 
 Copy your local "genome file", "annotation file" and "sample ID file(fastq_files.txt)" into "/yourlocal_dir".
